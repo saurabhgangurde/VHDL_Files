@@ -1,0 +1,15 @@
+ghdl -a ALU.vhd
+ghdl -a EE224_Components.vhd
+ghdl -a 2_1ByteMux.vhd
+ghdl -a 2_1Mux.vhd
+ghdl -a Eight_Bit_Adder.vhd
+ghdl -a Eight_Bit_Subtractor.vhd
+ghdl -a FullAdd.vhd
+ghdl -a HalfAdd.vhd
+ghdl -a LeftShift.vhd
+ghdl -a LogicGates.vhd
+ghdl -a RightShift.vhd
+ghdl -a TwosComplement.vhd
+ghdl -a Testbench.vhd
+ghdl -m Testbench
+echo "compilation complete"
